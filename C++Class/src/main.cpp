@@ -100,6 +100,12 @@ void opcontrol() {
 			claw.close();
 		}
 
+		if(master.getAnalog(okapi::ControllerAnalog::rightY) > 60){
+			arm.up();
+		}
+		else if(master.getAnalog(okapi::ControllerAnalog::rightY) < -60){
+			arm.down();
+		}
 
 		pros::delay(20);
 	}

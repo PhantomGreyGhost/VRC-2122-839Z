@@ -5,5 +5,7 @@ namespace cautionTape{
     #define FRONTRIGHTMOTOR  20
     #define BACKLEFTMOTOR    8
     #define BACKRIGHTMOTOR   19
+    #define LEFTARMMOTOR     12
+    #define RIGHTARMMOTOR    13
     #define DIGITAL_SENSOR_PORT 'A'
 }
